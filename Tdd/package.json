@@ -1,0 +1,15 @@
+{
+  "name": "Tdd",
+  "version": "1.0.0",
+  "description": "TDD basic concepts",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "yarn jest --notify",
+    "test:watch": "yarn jest --notify --watch"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "node-notifier": "^10.0.1"
+  }
+}
